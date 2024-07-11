@@ -1,0 +1,17 @@
+.container{
+  position: relative;
+  height: 20px;
+  width: 300px;
+
+  border: 1px solid rgb(66, 66, 66);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.progress{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  /* transform: translateX(-20%); */
+  background-color: green;
+}
